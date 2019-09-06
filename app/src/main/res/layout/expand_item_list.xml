@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="10dp"
+    android:paddingEnd="1dp"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:orientation="horizontal">
+   <androidx.appcompat.widget.AppCompatCheckBox
+       android:layout_width="0dp"
+       android:id="@+id/itemname"
+       android:layout_height="wrap_content"
+       android:text="burger"
+       android:layout_weight="4"
+       android:textSize="15sp"
+       android:textColor="#000"
+       />
+    <TextView
+        android:id="@+id/itemquantity"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:text="250g"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
